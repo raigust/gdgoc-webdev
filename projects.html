@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <nav>
+        <h2>RAIHAN.</h2>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <p>MY WORK</p>
+        <h1>MY<br>PROJECTS.</h1>
+        <p>Some projects that I have worked on.</p>
+    </section>
+
+    <section class="projects">
+        <h2>Project List</h2>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <div class="project-list">
+            <div class="card project-item" data-category="web">
+                <h3>KantinKu</h3>
+                <p>Website pemesanan kantin sekolah.</p>
+                <span>HTML • CSS • JavaScript</span>
+            </div>
+
+            <div class="card project-item" data-category="design">
+                <h3>Graphic Design</h3>
+                <p>Eksperimen desain dan tipografi.</p>
+                <span>Visual Design</span>
+            </div>
+
+            <div class="card project-item" data-category="web">
+                <h3>My Portfolio</h3>
+                <p>Website untuk memperkenalkan diri.</p>
+                <span>HTML • CSS • JavaScript</span>
+            </div>
+        </div>
+
+        <p id="message">Menampilkan semua project.</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Raihan.</p>
+    </footer>
+
+</body>
+</html>
